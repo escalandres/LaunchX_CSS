@@ -69,6 +69,7 @@ h1{
     width: 130px;
     height: 40px;
     text-align: center;
+    box-shadow: 0px 6px 6px 0px rgba(53, 85, 211, 0.4);
 }
 
 /*  ---Info1 section---    */
@@ -113,7 +114,7 @@ h1{
 .info1-p{
     color: rgb(164,173,188);
     margin-top: 2rem;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     width: 420px;
     height: 100;
@@ -131,9 +132,9 @@ h1{
     margin-top: 4rem;
 }
 .icons{
-    height: 40px;
-    width: 40px;
-    margin-right: 1rem;
+    height: 30px;
+    width: 30px;
+    margin-right: 0.5rem;
 }
 .schedule-vaccine{
     margin-top: 40rem;
@@ -155,10 +156,14 @@ h1{
 }
 .info-icon{
     float: left;
-    margin-right: 3rem;
+    margin-right: 1.5rem;
+    color: rgb(31,64,114);
+    font-weight: 600;
+    font-size: 20px;
 }
 .icon-text{
     color: rgb(31,62,114);
+    margin-left: 2rem;
 }
 .icons11{
     margin-left: 3.5rem;
@@ -172,11 +177,12 @@ h1{
 }
 .schedule-data{
     margin-top: 3rem;
-    margin-left: 3.5rem;
+    margin-left: 0rem;
     height: 150px;
-    width: 1120px;
+    width: 1156px;
     padding: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    box-shadow: 0px 25px 20px 0px rgba(53, 85, 211, 0.1);
 }
 .data{
     color: rgb(109,123,147);
@@ -185,7 +191,8 @@ h1{
 }
 .data-div{
     float: left;
-    margin-right: 7rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
 }
 #submit-btn{
     color: white;
@@ -196,4 +203,5 @@ h1{
     padding: 11px;
     text-align: center;
     text-decoration: none;
+    box-shadow: 0px 6px 6px 0px rgba(53, 85, 211, 0.4);
 }
