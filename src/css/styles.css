@@ -1,0 +1,199 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: white;
+    
+}
+.s-fixed{
+    z-index:100;
+    position:fixed;
+    width:100%;
+}
+section{
+    margin-bottom: 3rem;
+}
+h1{
+    color: #C668FF
+}
+
+/*  ---Navbar section---    */
+.navbar-section{
+    background-color: rgba(255,255,255,0.7);
+    height: 95px;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    /* display: none; */
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+}
+.logo-nav{
+    color: rgb(56,88,214);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 6rem;
+    margin-right: 9rem;
+}
+.s-cross-center {
+    -moz-box-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-btn{
+    color: rgb(7, 7, 7);
+}
+.n-left{
+    margin-left:2.5rem;
+    color: rgb(39, 39, 39);
+}
+.niv{
+    margin-right: 1.5rem;
+    color: rgb(39, 39, 39);
+}
+#regulation-btn,#database-btn,#education-btn,#news-btn{
+    color: rgb(109,123,147);
+    font-weight: 600;
+}
+
+#hoax-btn{
+    color: white;
+    background-color: rgb(55, 87, 213);
+    border-radius: 2%;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+}
+
+/*  ---Info1 section---    */
+#info1-section{
+    height: 1500px;
+    width: 100%;
+    background-color: rgb(255, 255, 255)
+}
+.info1-div{
+    height: 1000px;
+    width: 100%;
+}
+.info1-items{
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    height: 400px;
+    width: 450px;
+    float: left;
+}
+.info1-text{
+    margin-top: 5rem;
+    margin-left: 8rem;
+    margin-right: 6rem;
+    height: 400px;
+    width: 450px;
+    float: left;
+}
+.info1-h1{
+    color: rgb(31,62,114);
+    font-size: 60px;
+    font-weight: 800;
+    height: 150px;
+    width: 450px;
+}
+.info1-img{
+    float: right;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.info1-p{
+    color: rgb(164,173,188);
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 20px;
+    width: 420px;
+    height: 100;
+}
+
+.cuadrado{
+    width: 130px; 
+    height: 130px; 
+    background: rgb(244,246,251);
+    margin-left: 4.3rem;
+    margin-top: 2rem;
+    transform: rotate(45deg);
+}
+.icons-div{
+    margin-top: 4rem;
+}
+.icons{
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
+}
+.schedule-vaccine{
+    margin-top: 40rem;
+}
+.icon-img{
+    height: 40px;
+    width: 35px;
+    padding: 6px;
+    border-radius:10%;
+    /* border: 1px solid black; */
+    background-color: rgb(234, 242, 254) ;
+    
+}
+.icons1{
+    height: 25px;
+    width: 20px;
+    /* border: 1px solid black; */
+    margin-right: 1rem;
+}
+.info-icon{
+    float: left;
+    margin-right: 3rem;
+}
+.icon-text{
+    color: rgb(31,62,114);
+}
+.icons11{
+    margin-left: 3.5rem;
+    margin-top: -2.4rem;
+}
+.schedule-vaccine{
+    margin-left: 8.5rem;
+    width: 1200px;
+    height: 20px;
+    
+}
+.schedule-data{
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+    height: 150px;
+    width: 1120px;
+    padding: 30px;
+    border: 1px solid red;
+}
+.data{
+    color: rgb(109,123,147);
+    font-size: 25px;
+    font-weight: 500;
+}
+.data-div{
+    float: left;
+    margin-right: 7rem;
+}
+#submit-btn{
+    color: white;
+    background-color: rgb(55, 87, 213);
+    border-radius: 5%;
+    width: 140px;
+    height: 50px;
+    padding: 11px;
+    text-align: center;
+    text-decoration: none;
+}
