@@ -425,20 +425,22 @@ section{
     transform: rotate(-90deg); 
 }
 
-/*  ---Info3 section---    */
+/*  ---Info4 section---    */
 
 #info4-section{
-    height: 1200px;
+    height: 1030px;
     width: 100%;
     /* border: 5px red solid; */
 }
 .cuadrado4{
-    width: 130px; 
-    height: 130px; 
-    background: rgb(244,246,251);
-    margin-left: 80rem;
-    margin-top: 2rem;
-    transform: rotate(45deg);
+    width: 0; 
+    height: 0; 
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid rgb(244,246,251);
+    float: right;
+    transform: rotate(-90deg);
 }
 .info4-img{
     float: right;
@@ -471,6 +473,7 @@ section{
 }
 .info4-cards{
     height: 600px;
+    width: 625px;
 }
 .info4-text{
     margin-bottom: 10rem;
@@ -478,9 +481,9 @@ section{
 .contact-card-template{
     border: 2px solid rgb(250, 250, 255);
     border-radius: 4%;
-    width: 50%;
+    width: 45%;
     height: 200px;
-    /* margin-right: 1rem; */
+    margin-right: 1.5rem;
     padding: 2rem 2rem;
     box-shadow: 0px 6px 6px 0px rgba(231, 238, 250, 0.4);
     float: left;
@@ -544,4 +547,87 @@ section{
     text-decoration: none;
     font-size: 20px;
     font-weight: 900px;
+}
+
+/*---- Footer  ---- */
+footer{
+    background-color: rgb(238,243,255);
+    width: 100%;
+    height: 360px;
+}
+.left-footer{
+    height: 360px;
+    width: 490px;
+    float: left;
+}
+.left-text{
+    padding-top: 5rem;
+    padding-left: 10rem;
+    /* border: #C668FF 1px solid; */
+}
+.footer-h2{
+    color: rgb(54,86,212);
+    font-weight: 700;
+}
+.footer-p{
+    color: rgb(109,123,147);
+    width: 200px;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.copyright{
+    color: rgb(125,138,161);
+    margin-top: 6rem;
+    margin-left: 10rem;
+    font-weight: 600;
+}
+.right-footer{
+    height: 360px;
+    width: 600px;
+    float: right;
+}
+.options{
+    padding-top: 5rem;
+    height: 300px;
+    width: 140px;
+    float: left;
+    margin-right: 2rem;
+}
+.options-h3{
+    color: rgb(31,62,114);
+    font-weight: 700;
+}
+.a-move{
+    margin-top: 1.5rem;
+}
+.options-a{
+    text-decoration: none;
+    color: rgb(109,123,147);
+    font-weight: 500;
+    
+}
+.terms{
+    margin-top: 1rem;
+    width: 450px;
+    float: right;
+    
+}
+.a-move-h{
+    float: left;
+    margin-right: 3rem;
+    z-index: 2;
+    position: relative;
+}
+.triangulo-footer{
+    width: 0; 
+    height: 0; 
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid rgb(226,233,249);
+    transform: rotate(0deg);
+    margin-top: 10rem;
+    margin-left: 14rem;
+    z-index: 1;
+    position: absolute;
 }
