@@ -17,7 +17,9 @@ section{
 h1{
     color: #C668FF
 }
-
+section{
+    margin-bottom: 4rem;
+}
 /*  ---Navbar section---    */
 .navbar-section{
     background-color: rgba(255,255,255,0.7);
@@ -227,7 +229,8 @@ h1{
 }
 
 /*  ---Info2 section---    */
-#info2{
+
+#info2-section{
     height: 800px;
     width: 100%;
 }
@@ -251,29 +254,147 @@ h1{
     height: 100;
 }
 .why-vaccine{
-    width: 100%;
+    width: 97%;
     height: 600px;
     padding: 5rem;
-    /* border: 1px solid red; */
+    margin-left: 2rem;
 }
 
 .card-template {
-    border: 1px solid red;
-    /* border: 1px solid rgb(250, 250, 255); */
-    width: 500px;
-    margin-left: 2rem;
+    /* border: 1px solid red; */
+    border: 3px solid rgb(250, 250, 255);
+    border-radius: 4%;
+    width: 270px;
+    height: 400px;
+    margin-right: 1rem;
     padding: 2rem;
+    box-shadow: 0px 6px 6px 0px rgba(231, 238, 250, 0.4);
+    float: left;
 }
-.card-template:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
+
+.why-img-div{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(241,245,255);
+    border-radius: 20%;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+.why-img{
+    height: 40px;
+    width: 40px;
+}
+.info2-h4{
+    color: rgb(31,62,114);
+    margin-bottom: 1.5rem;
+}
+.info2-p2{
+    color: rgb(164,173,188);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/*  ---Info3 section---    */
+
+#info3-section{
+    height: 3000px;
     width: 100%;
-    height: 20px;
-    border-radius: 100%;
-    background: rgba(146,161,176,.15);
-    filter: blur(5px);
-    transform: translateY(calc(100% - .75rem));
-    z-index: -1;
+    border: red 1px solid;
+}
+.info3-img{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.cuadrado3{
+    width: 130px; 
+    height: 130px; 
+    background: rgb(244,246,251);
+    margin-left: -4rem;
+    margin-top: 2rem;
+    transform: rotate(45deg);
+}
+.info3-items{
+    float: right;
+    border: 5px solid blue;
+    width: 50%;
+    margin-right: 2rem;
+    height: 700px;
+}
+.info3-h1{
+    color: rgb(31,62,114);
+    font-size: 40px;
+    font-weight: 800;
+    height: 80px;
+    width: 100%;
+}
+.info3-p{
+    color: rgb(164,173,188);
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 20px;
+    width: 80%;
+    height: 100;
+}
+/* .recomendation-cards{
+    width: 90%;
+    height: 600px;
+    padding: 5rem;
+    margin-left: 2rem;
+} */
+
+.card-template-h {
+    /* border: 1px solid red; */
+    border: 3px solid rgb(250, 250, 255);
+    border-radius: 4%;
+    width: 100%;
+    height: 400px;
+    margin-right: 1rem;
+    padding: 2rem;
+    box-shadow: 0px 6px 6px 0px rgba(231, 238, 250, 0.4);
+    float: left;
+}
+
+.info3-img-div{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(241,245,255);
+    border-radius: 20%;
+    padding: 7px;
+    float: left;
+    margin-right: 2rem;
+}
+.info3-img2{
+    height: 25px;
+    width: 25px;
+}
+
+.info3-h4{
+    color: rgb(31,62,114);
+    width: 50%;
+    margin-top: 0.2rem;
+    margin-left: 4rem;
+    float: center;
+}
+.info3-p2{
+    color: rgb(164,173,188);
+    font-weight: 500;
+    font-size: 15px;
+}
+.info3-arrow-div{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(241,245,255);
+    border-radius: 20%;
+            /*  arriba | derecha | abajo | izquierda */ 
+    float: right;
+}
+.info3-arrow{
+    height: 15px;
+    width: 15px;
+    margin: 1.5px 3.5px 4px 4.5px;
+    /* down*/
+    transform: rotate(90deg); 
+    /*up*/
+    /*transform: rotate(-90deg);*/ 
 }
