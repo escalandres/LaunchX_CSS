@@ -1,3 +1,6 @@
 # PRACTICA CSS
 ## Landing page view
-![Index html](./landingVaccination.png)
+![Landing Page](./landingVaccination.png)
+
+## Poster vacunacion
+![Poster vacunacion](./poster_vacunacion.png)
