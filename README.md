@@ -1,6 +1,6 @@
 # PRACTICA CSS
-## Landing page view
-![Landing Page](./landingVaccination.png)
+## Landing page clonada view
+![Landing Page](./LandingClonada.png)
 
 ## Poster vacunacion
 ![Poster vacunacion](./poster_vacunacion.png)
